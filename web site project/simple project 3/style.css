@@ -1,0 +1,81 @@
+  *{
+    margin: 0;
+    padding: 0;
+
+  }
+  .{
+    
+      background-image: url('background.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%; 
+      opacity: 0.3;   
+    
+  }
+  body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h1,ul,li{
+    display: inline;
+  }
+  li{
+    padding:20px;
+    
+  }
+  ul{
+    margin-left: 40%;
+  }
+  nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  li:hover{
+    color: red;
+    background-color: blue;
+    border-radius: 10px;
+  }
+input{
+  width: 60%;
+  height: 40px;
+}
+.searchbar{
+  padding: 40px;
+  text-align: center;
+}
+ .box{
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  width: 220px;
+ }
+ .product{
+  text-align: center;
+ }
+.box:hover{
+  color: azure;
+background-color: black;
+}
+.about{
+  padding: 30px;
+}
+.one{
+  padding: 20px;
+}
+.contact{
+  background-color: black;
+  color: aquamarine;
+  padding: 20px;
+}
+.travelling{
+  text-align: center;
+}
+.img{
+  filter: grayscale(100%);
+  transition: all 0.3s;
+}
+.img:hover{
+  filter: grayscale(0);
+  transform: translate(10%);
+}
